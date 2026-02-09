@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ตัวอย่าง</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ========== Header และ Navigation ========== -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>ชื่อเว็บไซต์</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">หน้าหลัก</a></li>
+                    <li><a href="#">เกี่ยวกับเรา</a></li>
+                    <li><a href="#">บริการ</a></li>
+                    <li><a href="#">ติดต่อ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== Hero Section ========== -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>ยินดีต้อนรับสู่เว็บไซต์ของเรา</h2>
+            <p>ค้นพบข้อมูลที่น่าสนใจเกี่ยวกับบริการของเรา</p>
+            <a href="#" class="btn">เริ่มต้นใช้งาน</a>
+        </div>
+    </section>
+
+    <!-- ========== About Section ========== -->
+    <section class="about">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="content-text">
+                    <h2>เกี่ยวกับเรา</h2>
+                    <p>นี่คือข้อมูลเกี่ยวกับเว็บไซต์ของเรา...</p>
+                </div>
+                <div class="content-image">
+                    <img src="images/about-image.jpg" alt="เกี่ยวกับเรา">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Attractions Section ========== -->
+    <section class="attractions">
+        <div class="container">
+            <div class="attraction-item">
+                <div class="attraction-content">
+                    <h3>สถานที่ท่องเที่ยวที่น่าสนใจ</h3>
+                    <p>สถานที่ที่คุณไม่ควรพลาด...</p>
+                </div>
+                <div class="attraction-image">
+                    <img src="images/attraction-image.jpg" alt="สถานที่ท่องเที่ยว">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Contact Form ========== -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>ติดต่อเรา</h3>
+                    <p>หากคุณมีคำถามหรือข้อสงสัย โปรดติดต่อเรา</p>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">ชื่อ</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">อีเมล</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">ข้อความ</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">ส่งข้อความ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Footer ========== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>เกี่ยวกับเรา</h3>
+                <p>เว็บไซต์ของเราให้บริการข้อมูล...</p>
+            </div>
+            <div class="footer-section">
+                <h3>ลิงค์ที่เกี่ยวข้อง</h3>
+                <ul>
+                    <li><a href="#">หน้าหลัก</a></li>
+                    <li><a href="#">เกี่ยวกับเรา</a></li>
+                    <li><a href="#">บริการ</a></li>
+                    <li><a href="#">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 เว็บไซต์ของเรา. สงวนสิทธิ์</p>
+        </div>
+    </footer>
+
+</body>
+</html>
